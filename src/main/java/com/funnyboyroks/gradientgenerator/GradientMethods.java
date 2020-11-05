@@ -68,4 +68,13 @@ public class GradientMethods {
         };
         return true;
     }
+
+    public static boolean valueIn(Object[] arr, Object value) {
+        for (Object o : arr) {
+            if(o == value){
+                return true;
+            }
+        }
+        return false;
+    }
 }

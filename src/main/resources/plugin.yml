@@ -1,10 +1,17 @@
 name: GradientGenerator
-version: 1.0.0
+version: 1.1.0
 main: com.funnyboyroks.gradientgenerator.GradientGenerator
 api-version: 1.16
 prefix: GradientGen
-authors: [funnyboyroks]
-description: A simple plugin that can assist in generating gradient values
+authors: [funnyboy_roks]
+website: www.funnyboyroks.com
+description: A plugin that allows users to generate gradients inline or with a command.
 commands:
   gradient:
+    description: Generate a gradient and say it in chat.
+    aliases: [grad, generategrad]
+    permission: gradientGenerator.gradient
+    permission-message: You don't have permission to run this command.
+    usage: "/gradient <word> [<hexCode1> <hexCode2>...]"
+
 

@@ -35,7 +35,9 @@ public final class GradientGenerator extends JavaPlugin {
     }
 
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-        if (label.equalsIgnoreCase("gradient")) {
+        String[] gradientCommands = {"gradient", "grad", "generategrad"};
+
+        if (GradientMethods.valueIn(gradientCommands, label.toLowerCase())) {
             if (sender instanceof Player) {
                 Player player = (Player) sender;
                 if (player.hasPermission("generateGenerator.generateGradient")) {
