@@ -1,3 +1,8 @@
+.idea/
+target/
+
+*.zip
+
 # Compiled class file
 *.class
 

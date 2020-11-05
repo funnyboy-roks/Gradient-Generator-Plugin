@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Gradient-Generator-Plugin.iml" filepath="$PROJECT_DIR$/Gradient-Generator-Plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gradient-Generator.iml" filepath="$PROJECT_DIR$/Gradient-Generator.iml" />
     </modules>
   </component>
 </project>

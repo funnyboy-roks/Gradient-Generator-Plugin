@@ -1,7 +1,10 @@
-name: Gradient Generator
-version: ${project.version}
-main: funnyboyroks.gradientgenerator.GradientGenerator
-api-version: 1.15
+name: GradientGenerator
+version: 1.0.0
+main: com.funnyboyroks.gradientgenerator.GradientGenerator
+api-version: 1.16
 prefix: GradientGen
 authors: [funnyboyroks]
 description: A simple plugin that can assist in generating gradient values
+commands:
+  gradient:
+
